@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Pacifico&display=swap');
+*{
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: bisque;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Pacifico', cursive;
+    width: 100%;
+    position: fixed;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.logo {
+    font-size: 3rem;
+    font-family: 'Pacifico', cursive;
+    font-weight: bolder;
+}
+.navdiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navoptions {
+font-size: 1.2rem;
+text-decoration: none;
+justify-content: space-between;
+margin-right: 10px;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    margin: 25px;
+    font-size: larger;
+    font-weight: bolder;
+}
+body{
+    background-color: azure;
+    margin: 10px;
+    z-index: 0;
+}
+.hd{
+    background-color: beige;
+    padding: 10px;
+}
+section{
+    margin: 5px;
+}
+footer{
+    background-color: bisque;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Comfortaa', cursive;
+font-family: 'Pacifico', cursive;
+font-weight: 300;
+}
